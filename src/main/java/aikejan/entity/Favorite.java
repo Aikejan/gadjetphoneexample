@@ -14,6 +14,7 @@ import static jakarta.persistence.CascadeType.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+
 public class Favorite {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE,
